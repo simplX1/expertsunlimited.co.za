@@ -1,9 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel='stylesheet' type='text/css' media='screen' href='css/header/header.css'>
 </head>
+
 <body>
-    
+    <!-- this is the overlay shown when on non desktop devices-->
+
+    <!---->
+    <!-- this is the header menu shown when on larger screens like a desktop-->
+    <header>
+        <img src="images/Hamburger Icon-White.svg" class="menu-btn" id="open-menu">
+        <ul class="nav_links">
+            <li>
+                <a onclick="window.location='index.html'">HOME</a>
+            </li>
+            <li>
+                <a onclick="window.location='experts.html'">LEADING EXPERTS</a>
+            </li>
+            <li>
+                <a onclick="window.location='about.html'">ABOUT</a>
+            </li>
+            <li>
+                <a onclick="window.location='contact-us.html'">CONTACT</a>
+            </li>
+        </ul>
+
+    </header>
+    <!---->
+    <!--this will make the hamburger icon active and the x button active when clicked -->
+    <script>
+        var overlay = document.getElementById('overlay');
+        var closeMenu = document.getElementById('close-menu');
+        document.getElementById('open-menu').addEventListener('click', function () {
+            overlay.classList.add('show-menu');
+            //prevents scrolling when overlay is open
+            document.documentElement.style.overflow = 'hidden';
+            document.body.scroll = "no";
+
+        });
+        document.getElementById('close-menu').addEventListener('click', function () {
+            overlay.classList.remove('show-menu');
+            //allows scrolling when overlay is closed
+            document.documentElement.style.overflow = 'scroll';
+            document.body.scroll = "yes";
+        });
+    </script>
+    <!----------->
+
+
+
 </body>
+
 </html>

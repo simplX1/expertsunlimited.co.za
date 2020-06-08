@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Calling footer and header -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/contact-us/contact-us.css'>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+        $(function () {
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+<body>
+            <!-- Calling Header  -->
+            <div id="header">
+            </div>
+            <!---->
+            <!-- Calling footer  -->
+            <div id="footer">
+            </div>
+            <!---->
+
+            <div class="row0">
+                <div class="column1">
+                    <section class="container3">
+                        <form name="_next" action="https://app.99inbound.com/api/e/OH3ndIM6" method="POST">
+                            <div class="inputs">
+                                <div class="row2">
+                                    <div class="block">
+                                        <label for="firstName" class="firstNameLabel">FIRST NAME:</label>
+                                        <input class="firstNameInput" id="firstName" type="text" name="firstname"
+                                            required="" />
+                                    </div>
+                                    <div class="block">
+                                        <label for="lastName" class="lastNameLabel">LAST NAME:</label>
+                                        <input class="lastNameInput" id="lastName" type="text" name="lastname"
+                                            required="" />
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <label for="emailAddress" class="emailAddressLabel">EMAIL ADDRESS:</label>
+                                    <input class="emailAddressInput" id="emailAddress" type="text" name="emailAddress"
+                                        required="" />
+                                </div>
+                                <div class="block">
+                                    <label for="contactNumber" class="contactNumberLabel">CONTACT NUMBER:</label>
+                                    <input class="contactNumberInput" id="contactNumber" type="text" name="contactNumber"
+                                        required="" />
+                                </div>
+                                <div class="block">
+                                    <label for="message" class="messageLabel">WHAT CAN WE DO FOR YOU?</label>
+                                    <textarea class="messageInput" id="message" rows="4" name="body" required=""></textarea>
+                                </div>
+                                
+                                    <div class="g-recaptcha" data-sitekey="6LcLjfkUAAAAAIBYkq4eGE_aR6ZpaLs1PhWJM87E"
+                                        data-callback="recaptcha_callback"></div>
+                                
+                                <div class="block1">
+                                    <button class="submit" type="submit" id="submit" value="Send" disabled="disabled" title="Make sure Recaptcha is checked">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+
+            <!--this will make the hamburger icon active and the x button active when clicked -->
+        <script>
+            var overlay = document.getElementById('overlay');
+            var closeMenu = document.getElementById('close-menu');
+            document.getElementById('open-menu').addEventListener('click', function () {
+                overlay.classList.add('show-menu');
+            });
+            document.getElementById('close-menu').addEventListener('click', function () {
+                overlay.classList.remove('show-menu');
+            });
+            //-- enables submit button when recaptcha is completed --
+            function recaptcha_callback(){
+                var submitBtn = document.querySelector('#submit');
+                submitBtn.removeAttribute('disabled');
+                submitBtn.style.cursor = 'pointer';
+            }
+            //--------
+        </script>
+        <!---->
+</body>
+</html>
