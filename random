@@ -51,7 +51,9 @@ header{
     color: black;
     border-bottom: 1px solid black;
 }
-
+.nav_links li a:active{
+    border-bottom: 4px solid red;
+}
 .menu-btn{
     margin-top: 14px;
     margin-right: 0px;
@@ -59,9 +61,7 @@ header{
     float: right;
     cursor: pointer;
 }
-header ul li a:focus{
-    color: red;
-}
+
 
 //------------------------------------
 
