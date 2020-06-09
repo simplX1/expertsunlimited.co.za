@@ -27,7 +27,10 @@ header {
   vertical-align: middle;
   cursor: pointer;
   position: absolute;
-  left: 0px;
+  left: 60px;
+  width: 140px;
+  height: 50px;
+  margin-top: -13px;
 }
 
 .nav_links {
@@ -58,12 +61,8 @@ header {
   cursor: pointer;
 }
 
-header ul li a:focus {
-  color: red;
-}
-
 nav {
-  background: white;
+  background: #282e34;
   padding: 2em;
   width: calc(100% - 4em);
   height: calc(100vh - 4em);
@@ -83,7 +82,7 @@ nav ul {
   padding: 0;
   -ms-grid-columns: (25%)[4];
       grid-template-columns: repeat(4, 25%);
-  width: 80%;
+  width: 85%;
 }
 
 nav ul li {
@@ -92,7 +91,7 @@ nav ul li {
 
 nav span {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 1.4em;
 }
