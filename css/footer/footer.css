@@ -16,6 +16,10 @@ body, html {
   font-size: 30px;
 }
 
+.footer-column .footer-column, .footer-column a {
+  font-size: 18px;
+}
+
 .inline-block-style {
   display: block;
   text-align: center;
@@ -68,6 +72,9 @@ footer {
   }
   footer .footer-column .footer-column, footer .footer-column p {
     margin-top: -4px;
+  }
+  footer .footer-column .footer-column, footer .footer-column a {
+    font-size: 18px;
   }
   footer .inline-block-style {
     display: inline-block;

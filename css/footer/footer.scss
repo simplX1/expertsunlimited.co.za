@@ -4,6 +4,8 @@ body,html{
     padding: 0;
     margin: 0;
 }
+
+//Defining Mobile Column
 .footer-column {
   display: block;
   text-align: center;
@@ -13,6 +15,9 @@ body,html{
   .footer-column,h2{
     color: white;
     font-size: 30px;
+}
+.footer-column,a{
+  font-size: 18px;
 }
 }
 .inline-block-style
@@ -57,7 +62,7 @@ footer {
 
 @media only screen and (min-width: 1064px){
 
-  
+  //Desktop Column
   .footer-column {
     
 
@@ -70,6 +75,9 @@ footer {
   }
   .footer-column,p{
       margin-top: -4px;
+  }
+  .footer-column,a{
+    font-size: 18px;
   }
   
   
@@ -95,7 +103,7 @@ footer {
   .infodiv {
     margin-top: -20px;
 }
-
+//Footer Section
 footer {
     font-family: 'prompt','sans-serif';
     left: 0;
