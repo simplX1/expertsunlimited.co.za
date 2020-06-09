@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Calling footer and header -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/experts/experts.css'>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+        $(function () {
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+<body>
+            <!-- Calling Header  -->
+            <div id="header">
+            </div>
+            <!---->
+
+            <div class="row">
+                <div class="column-1">
+                    <h1>ANDY CLAY</h1>
+                    <h2>BA(Hons), MBA</h2>
+                    <img src="images/experts/Adam Philips.JPG" class="andy-Clay-Image" id="selfie">
+                    <div class="buttons">
+                        <div class="container">
+                      
+                       <a href="andyclay.html" class="btn effect01" target="_blank"><span>Click Me!</span></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="column-2">
+                    <h1>ADAM PHILIPS</h1>
+                    <h2>BA(Hons), MBA</h2>
+                    <img src="images/experts/Adam Philips.JPG" class="adam-Philips-Image" id="selfie">
+                    <div class="buttons">
+                        <div class="container">
+                      
+                       <a href="adamPhilips.html" class="btn effect01" target="_blank"><span>Click Me!</span></a>
+                        </div>
+                      </div>
+                      
+                </div>
+            </div>
+
+            <!-- Calling footer  -->
+            <div id="footer">
+            </div>
+            <!---->
+            
+            <!--this will make the hamburger icon active and the x button active when clicked -->
+        <script>
+            var overlay = document.getElementById('overlay');
+            var closeMenu = document.getElementById('close-menu');
+            document.getElementById('open-menu').addEventListener('click', function () {
+                overlay.classList.add('show-menu');
+            });
+            document.getElementById('close-menu').addEventListener('click', function () {
+                overlay.classList.remove('show-menu');
+            });
+            //-- enables submit button when recaptcha is completed --
+            function recaptcha_callback(){
+                var submitBtn = document.querySelector('#submit');
+                submitBtn.removeAttribute('disabled');
+                submitBtn.style.cursor = 'pointer';
+            }
+            //--------
+        </script>
+        <!---->
+</body>
+</html>
