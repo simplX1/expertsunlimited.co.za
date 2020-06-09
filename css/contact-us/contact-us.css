@@ -4,10 +4,20 @@
   margin-right: 7%;
 }
 
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
 form {
   max-width: 420px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .inputs .block {
@@ -171,8 +181,17 @@ form {
   margin-left: 20%;
 }
 
+.container3 {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
 .block1 {
   width: 100%;
   text-align: center;
+}
+
+.g-recaptcha {
+  margin-left: -56px;
 }
 /*# sourceMappingURL=contact-us.css.map */

@@ -5,12 +5,21 @@
     margin-right: 7%;
 }
 //----------------------------
-
+//header
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+//-----------
 //for the form and its inputs
 form {
    max-width: 420px;
    margin: auto;
-   margin-top: 100px;
+   margin-top: 50px;
   }
   .inputs .block {
     padding-left: 5px;
@@ -156,6 +165,10 @@ form {
     margin-left: 20%;
  
 }
+.container3{
+  padding-left: 10px;
+  padding-right: 20px;
+}
 //------------------------------------------------
 //-----------------------------------------------------------------------------------
 //for the submit button
@@ -164,3 +177,8 @@ form {
     text-align: center;
 }
 //----------------------
+//recaptcha
+.g-recaptcha{
+  margin-left: -56px;
+}
+//-----------------

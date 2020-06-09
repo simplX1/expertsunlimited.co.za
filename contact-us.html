@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,11 +26,12 @@
             <div id="footer">
             </div>
             <!---->
-
+            <h1>Contact Us</h1>
+            <p>If you have any questions please feel free to contact us by filling out the form bellow!</p>
             <div class="row0">
                 <div class="column1">
                     <section class="container3">
-                        <form name="_next" action="https://app.99inbound.com/api/e/OH3ndIM6" method="POST">
+                        <form name="_next" action="https://app.99inbound.com/api/e/98xQkIS5" method="POST">
                             <div class="inputs">
                                 <div class="row2">
                                     <div class="block">
@@ -56,11 +58,9 @@
                                 <div class="block">
                                     <label for="message" class="messageLabel">WHAT CAN WE DO FOR YOU?</label>
                                     <textarea class="messageInput" id="message" rows="4" name="body" required=""></textarea>
-                                </div>
-                                
-                                    <div class="g-recaptcha" data-sitekey="6LcLjfkUAAAAAIBYkq4eGE_aR6ZpaLs1PhWJM87E"
-                                        data-callback="recaptcha_callback"></div>
-                                
+                                </div>                       
+                                <div class="g-recaptcha" data-sitekey="6LeQbwEVAAAAAHVHXeJZ5pmexMeqOy3tj_o_DLhC"
+                                    data-callback="recaptcha_callback"></div>
                                 <div class="block1">
                                     <button class="submit" type="submit" id="submit" value="Send" disabled="disabled" title="Make sure Recaptcha is checked">Submit</button>
                                 </div>
@@ -68,7 +68,6 @@
                         </form>
                     </section>
                 </div>
-
             <!--this will make the hamburger icon active and the x button active when clicked -->
         <script>
             var overlay = document.getElementById('overlay');
