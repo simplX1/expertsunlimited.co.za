@@ -1,1 +1,111 @@
-/* No CSS *//*# sourceMappingURL=footer.css.map */
+@import url("https://fonts.googleapis.com/css?family=Prompt&display=swap");
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column {
+  display: block;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+.footer-column .footer-column, .footer-column h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.footer-column .footer-column, .footer-column a {
+  font-size: 18px;
+}
+
+.inline-block-style {
+  display: block;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.footer-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img {
+  text-align: center;
+  height: 2%;
+  width: 2%;
+}
+
+.expunlimg {
+  height: 90px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.infodiv {
+  margin-top: -25px;
+}
+
+footer {
+  font-family: 'prompt','sans-serif';
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #282e34;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1064px) {
+  footer {
+    /* Clear floats after the columns */
+  }
+  footer .footer-column {
+    float: left;
+    width: 20%;
+    height: 240px;
+  }
+  footer .footer-column .footer-column, footer .footer-column h2 {
+    font-size: 30px;
+  }
+  footer .footer-column .footer-column, footer .footer-column p {
+    margin-top: -4px;
+  }
+  footer .footer-column .footer-column, footer .footer-column a {
+    font-size: 18px;
+  }
+  footer .inline-block-style {
+    display: inline-block;
+    text-align: left;
+  }
+  footer .footer-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  footer .img {
+    text-align: center;
+    height: 2%;
+    width: 2%;
+  }
+  footer .infodiv {
+    margin-top: -20px;
+  }
+  footer footer {
+    font-family: 'prompt','sans-serif';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4b4b4b;
+    color: white;
+    text-align: center;
+  }
+  footer .expunlimg {
+    height: 90px;
+    padding-top: 55px;
+    padding-left: 10px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
