@@ -6,7 +6,7 @@ body, html {
 }
 
 .banner {
-  background: url("../../images/Home.jpg") no-repeat center center fixed;
+  background: url("../../images/index/home.png.jpg") no-repeat center center fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
