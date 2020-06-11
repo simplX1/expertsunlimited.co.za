@@ -1,127 +1,156 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
-
-body,html{
-    padding: 0;
-    margin: 0;
+//needed to make footer stick to bottom of page
+html{ height:100%;}
+body{ min-height:100%; padding:0; margin:0; position:relative; }
+body::after{ content:''; display:block; height:100px; }
+footer{ 
+  position:absolute; 
+  bottom:0; 
+  width:100%; 
+  height:290px; 
 }
+/* FOR DEMO ONLY */
+footer{
+   background:#282E34; 
+}
+//-------------------------------------------------------
 
-//Defining Mobile Column
-.footer-column {
-  display: block;
-  text-align: center;
+
+.left-column-outer, .middle-column-outer, .right-column-outer{
+  width: 33.3333333333%;
   float: left;
-  width: 100%;
-
-  .footer-column,h2{
-    color: white;
-    font-size: 30px;
-}
-.footer-column,a{
-  font-size: 18px;
-}
-}
-.inline-block-style
-{
-  display: block;
   text-align: center;
-}
-
-/* Clear floats after the columns */
-.footer-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.img{
-    text-align: center;
-    height: 2%;
-    width: 2%;
-}
-.expunlimg{
-    height: 90px;
-    padding-top: 30px;
-    padding-left: 10px;
-}
-
-
-.infodiv {
-    margin-top: -25px;
-}
-
-
-
-footer {
-  font-family: 'prompt','sans-serif';
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #282e34;
   color: white;
-  text-align: center;
-
-
-@media only screen and (min-width: 1064px){
-
-  //Desktop Column
-  .footer-column {
-    
-
-    float: left;
-    width: 20%;
-    height: 240px;
-
-    .footer-column,h2{
-      font-size: 30px;
-  }
-  .footer-column,p{
-      margin-top: -4px;
-  }
-  .footer-column,a{
-    font-size: 18px;
-  }
   
+}
+.left-middle-column, .right-middle-column{
   
-  }
-  .inline-block-style
-{
   display: inline-block;
-  text-align: left;
+
+}
+.left-column-outer, .right-column-outer{
+  margin-top: 60px;
 }
 
+.left-middle-column, .right-middle-column{
+
+}
+
+.contact-details-separator{
+  width: 500px;
+ background-color:#0080B8;
+ border-color: #0080B8;
+ height: 2px;
+}
+.menu{
+  list-style: none;
+}
+.menu-item1, .menu-item2, .menu-item3{
+  display: inline;
+  padding: 15px;
+}
+
+.right-left-column, .right-right-column{
+  display: inline-block;
   
-  /* Clear floats after the columns */
-  .footer-row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .img{
-      text-align: center;
-      height: 2%;
-      width: 2%;
-  }
-  .infodiv {
-    margin-top: -20px;
+  padding-top: 20px;
+  
 }
-//Footer Section
-footer {
-    font-family: 'prompt','sans-serif';
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #4b4b4b;
-    color: white;
-    text-align: center;
+.right-middle-column{
+  padding-left: 40px;
 }
-.expunlimg{
-    height: 90px;
-    padding-top: 55px;
-    padding-left: 10px;
+.left-middle-column{
+  padding-right: 40px;
+}
+.right-left-column{
+  padding-right: 60px;
+}
+.mail1, .mail2, .phone1, .phone2{
+  padding-right: 20px;
+  margin-bottom: -8px;
+}
+.andy-clay-contact-mail{
+  
 }
 
-
-
+.btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 150px;
+}
+.btn:hover {
+  text-decoration: none;
 }
 
+/*btn_background*/
+.effect04 {
+  --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+  display: var(--uismLinkDisplay);
+  color: #000;
+  outline: solid  2px #000;
+  position: relative;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  background-color: white ;
+}
+
+.effect04::before,
+.effect04 span{
+    margin: 0 auto;
+	transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+	transition-duration: 0.4s;
+}
+
+/* 文字1を上に */
+.effect04:hover{
+
+  background-color: #000;
+}
+
+/* HOVERしたら文字1を上に */
+.effect04:hover span{
+  -webkit-transform: translateY(-400%) scale(-0.1,20);
+          transform: translateY(-400%) scale(-0.1,20);
+}
+
+/*文字2*/
+.effect04::before{
+  content: attr(data-sm-link-text);
+	color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: translateY(500%) scale(-0.1,20);
+          transform: translateY(500%) scale(-0.1,20);
+}
+
+/* HOVERしたら文字2を上に */
+.effect04:hover::before{
+  letter-spacing: 0.05em;
+  -webkit-transform: translateY(0) scale(1,1);
+          transform: translateY(0) scale(1,1);
+}
+//------------------
+
+
+@media only screen and (max-width: 1651px){
+  .left-column-outer, .middle-column-outer, .right-column-outer{
+  width: 100%;
+  
+}
+footer{
+  height: auto;
+}
+.contact-details-separator{
+  width: 400px;
+
+}
 
 }
