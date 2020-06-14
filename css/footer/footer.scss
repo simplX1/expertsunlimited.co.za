@@ -30,16 +30,11 @@ footer{
 .left-column-outer, .right-column-outer{
   margin-top: 60px;
 }
-
-.left-middle-column, .right-middle-column{
-
-}
-
 .contact-details-separator{
   width: 500px;
- background-color:#0080B8;
- border-color: #0080B8;
- height: 2px;
+  background-color:#0080B8;
+  border-color: #0080B8;
+  height: 2px;
 }
 .menu{
   list-style: none;
@@ -48,7 +43,6 @@ footer{
   display: inline;
   padding: 15px;
 }
-
 .right-left-column, .right-right-column{
   display: inline-block;
   
@@ -68,9 +62,7 @@ footer{
   padding-right: 20px;
   margin-bottom: -8px;
 }
-.andy-clay-contact-mail{
-  
-}
+
 
 .btn {
   letter-spacing: 0.1em;
@@ -106,20 +98,19 @@ footer{
 	transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
 	transition-duration: 0.4s;
 }
-
-/* 文字1を上に */
+  
 .effect04:hover{
 
   background-color: #000;
 }
 
-/* HOVERしたら文字1を上に */
+/* HOVER*/
 .effect04:hover span{
   -webkit-transform: translateY(-400%) scale(-0.1,20);
           transform: translateY(-400%) scale(-0.1,20);
 }
 
-/*文字2*/
+
 .effect04::before{
   content: attr(data-sm-link-text);
 	color: #FFF;
@@ -131,7 +122,7 @@ footer{
           transform: translateY(500%) scale(-0.1,20);
 }
 
-/* HOVERしたら文字2を上に */
+/* HOVER */
 .effect04:hover::before{
   letter-spacing: 0.05em;
   -webkit-transform: translateY(0) scale(1,1);
