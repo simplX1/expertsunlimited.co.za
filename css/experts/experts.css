@@ -138,6 +138,11 @@ body {
   height: 430px;
 }
 
+.adam-philips-image {
+  width: 300px;
+  height: 430px;
+}
+
 @media only screen and (min-width: 1000px) {
   .row {
     display: -webkit-box;
