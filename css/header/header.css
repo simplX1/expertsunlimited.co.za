@@ -63,11 +63,13 @@ header {
 }
 
 nav {
+  position: relative;
   background: #282e34;
   padding: 2em;
   width: calc(100% - 4em);
   height: calc(100vh - 4em);
   display: none;
+  z-index: 3;
 }
 
 nav .close-btn {
@@ -94,7 +96,7 @@ nav span {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 20px;
 }
 
 .show-menu {

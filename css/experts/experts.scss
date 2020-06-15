@@ -13,6 +13,7 @@
   }
   
   body {
+    font-family: Helvetica;
     background: #FFF;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
@@ -121,6 +122,10 @@
  
  
   @media only screen and (min-width: 1000px){
+
+    body{
+      font-family: Helvetica;
+    }
 
     .row {
         display: flex;
