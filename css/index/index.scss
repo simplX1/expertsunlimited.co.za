@@ -67,7 +67,7 @@ body, html {
         padding: 0;
         font-size: 15px;
         li{
-            font-size: 18px;
+            font-size: 16px;
             width: 90%;
         }
     }
@@ -228,7 +228,7 @@ body, html {
             font-size: 40px;
         }
         p{
-            font-size: 20px;
+            font-size: 23px;
         }
     }
 //Topics Description
@@ -236,24 +236,28 @@ body, html {
         background-color: #282e34;
         text-align: center;
         width: 100%;
-        height: 500px;
+        height: 530px;
         
         h1{
             font-size: 40px;
             color: white;
         }
         p{
-            font-size: 20px;
+            font-size: 23px;
         }
         .topics{
             text-align: left;
-            font-size: 20px;
+            font-size: 25px;
             color: white;
             list-style-type: circle;
             margin-left: 10%;
             padding: 0;
             font-size: 20px;
+            li{
+                font-size: 23px;
+            }
         }
+
     }
 //Read More Button
     #section03 {
