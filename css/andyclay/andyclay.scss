@@ -26,6 +26,8 @@ width: 100%;
     clear: both;
   }
 
+
+  //defines image dimensions
   .expertsimage{
       text-align: center;
     border-radius: 45px;
@@ -33,6 +35,7 @@ width: 100%;
     width: 60%;
 }
 
+//past experiences div
 .pastexperience
   {
       height: 650px;
@@ -51,6 +54,7 @@ width: 100%;
     }
   }
 
+  //div with all bulletpoints
   .bulletdiv{
     height: 480px;
     text-align: center;
@@ -86,13 +90,15 @@ width: 100%;
 
   }
 @media only screen and (min-width: 1064px){
+
+  //defines image column smaller
     .columnimage{
         text-align: center;
     float: left;
     width: 30%;
     }
 
-
+//Defines column sizes for text regarding andy
     .column {
     text-align: center;
     float: left;
@@ -119,6 +125,7 @@ width: 100%;
     clear: both;
   }
 
+  //image sizes for desktop
   .expertsimage{
       border-radius: 45px;
       margin-top: 4%;
@@ -126,6 +133,7 @@ width: 100%;
       width: auto;
   }
 
+  //Defines past experiences div
   .pastexperience
   {
       height: 260px;
@@ -148,6 +156,7 @@ width: 100%;
     }
   }
 
+  //defines bullet div
   .bulletdiv{
     height: 250px;
     text-align: center;
