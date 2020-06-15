@@ -1,8 +1,9 @@
 footer {
   position: absolute;
   width: 100%;
-  height: 290px;
+  height: auto;
   margin-top: 40px;
+  padding-bottom: 30px;
 }
 
 /* FOR DEMO ONLY */
@@ -142,6 +143,54 @@ footer {
   }
   .contact-details-separator {
     width: 400px;
+  }
+}
+
+@media only screen and (max-width: 614px) {
+  .contact-details-separator {
+    width: 150px;
+  }
+  .left-column-outer {
+    width: 100%;
+  }
+  .menu {
+    display: -ms-inline-grid;
+    display: inline-grid;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1810px) {
+  .left-middle-column, .right-middle-column {
+    width: 100%;
+  }
+  .middle-column-outer {
+    text-align: center;
+  }
+  .left-middle-column {
+    padding-right: 0px;
+  }
+  .right-middle-column {
+    padding-left: 0px;
+  }
+  .mail1, .mail2, .phone1, .phone2 {
+    padding-right: 10px;
+    margin-bottom: -8px;
+  }
+  .right-left-column {
+    display: contents;
+  }
+  .right-left-column .container {
+    padding-top: 20px;
+  }
+  .left-column-outer h1 {
+    margin-top: -50px;
+  }
+  .right-column-outer h1 {
+    margin-top: -40px;
+  }
+  .menu-item1, .menu-item2, .menu-item3 {
+    margin-top: -20px;
   }
 }
 /*# sourceMappingURL=footer.css.map */
