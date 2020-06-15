@@ -135,11 +135,10 @@ footer {
     width: 100%;
   }
   footer {
-    height: auto;
     position: absolute;
-    bottom: 0;
     width: 100%;
     height: auto;
+    margin-top: 40px;
   }
   .contact-details-separator {
     width: 400px;
