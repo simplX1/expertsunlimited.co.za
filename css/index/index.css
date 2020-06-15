@@ -74,7 +74,7 @@ body, html {
 }
 
 .topicscontent .topics li {
-  font-size: 18px;
+  font-size: 16px;
   width: 90%;
 }
 
@@ -223,29 +223,32 @@ body, html {
     font-size: 40px;
   }
   .indexcontent p {
-    font-size: 20px;
+    font-size: 23px;
   }
   .topicscontent {
     background-color: #282e34;
     text-align: center;
     width: 100%;
-    height: 500px;
+    height: 530px;
   }
   .topicscontent h1 {
     font-size: 40px;
     color: white;
   }
   .topicscontent p {
-    font-size: 20px;
+    font-size: 23px;
   }
   .topicscontent .topics {
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     list-style-type: circle;
     margin-left: 10%;
     padding: 0;
     font-size: 20px;
+  }
+  .topicscontent .topics li {
+    font-size: 23px;
   }
   #section03 {
     /*position: relative;
