@@ -133,6 +133,11 @@ body {
   transform: rotate(40deg);
 }
 
+.andy-clay-image {
+  width: 300px;
+  height: 430px;
+}
+
 @media only screen and (min-width: 1000px) {
   .row {
     display: -webkit-box;
