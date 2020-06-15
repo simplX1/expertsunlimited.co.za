@@ -168,6 +168,10 @@ footer {
   .left-middle-column, .right-middle-column {
     width: 100%;
   }
+  .left-middle-column a, .right-middle-column a {
+    text-decoration: none;
+    color: white;
+  }
   .middle-column-outer {
     text-align: center;
   }
