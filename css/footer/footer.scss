@@ -19,6 +19,10 @@ footer{
 //------------
 //two colunms in the right colunm
 .left-middle-column, .right-middle-column{
+  a{
+    text-decoration: none;
+    color: white;
+  }
   display: inline-block;
 }
 //------------
@@ -168,6 +172,10 @@ footer{
   .left-middle-column, .right-middle-column{
     
     width: 100%;
+    a{
+      text-decoration: none;
+      color: white;
+    }
   }
   .middle-column-outer{
     text-align: center;
