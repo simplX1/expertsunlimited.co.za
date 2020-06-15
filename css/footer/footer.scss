@@ -1,8 +1,5 @@
 
-a{
-  text-decoration: none;
-  color: white;
-}
+
 footer{ 
   position:absolute;  
   width:100%; 
@@ -25,7 +22,10 @@ footer{
   
 }
 .left-middle-column, .right-middle-column{
-  
+  a{
+    text-decoration: none;
+    color: white;
+  }
   display: inline-block;
 
 }
@@ -169,6 +169,10 @@ footer{
   .left-middle-column, .right-middle-column{
     
     width: 100%;
+    a{
+      text-decoration: none;
+      color: white;
+    }
   }
   .middle-column-outer{
     text-align: center;
