@@ -3,7 +3,8 @@ body, html {
   margin: 0px;
 }
 
-li, a {
+.nav_links
+a {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 25px;

@@ -1,14 +1,10 @@
 footer {
+  background: #282E34;
   position: absolute;
   width: 100%;
   height: auto;
   margin-top: 40px;
   padding-bottom: 30px;
-}
-
-/* FOR DEMO ONLY */
-footer {
-  background: #282E34;
 }
 
 .left-column-outer, .middle-column-outer, .right-column-outer {
@@ -125,6 +121,17 @@ footer {
   letter-spacing: 0.05em;
   -webkit-transform: translateY(0) scale(1, 1);
   transform: translateY(0) scale(1, 1);
+}
+
+.footer-row2 {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-row2 a {
+  color: white;
+  font-size: 11px;
 }
 
 @media only screen and (max-width: 1651px) {
