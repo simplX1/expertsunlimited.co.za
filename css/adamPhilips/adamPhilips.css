@@ -1,17 +1,17 @@
 .column {
-  text-align: center;
-  float: left;
-  width: 50%;
+  width: 100%;
 }
 
 .column h1 {
+  text-align: center;
   font-size: 40px;
 }
 
 .column p {
+  font-size: 18px;
   text-align: justify;
-  font-size: 22px;
-  margin-right: 50px;
+  width: 90%;
+  margin-left: 5%;
 }
 
 /* Clear floats after the columns */
@@ -22,25 +22,26 @@
 }
 
 .expertsimage {
+  text-align: center;
   border-radius: 45px;
   padding-top: 15px;
-  height: 500px;
+  width: 60%;
+  margin-left: 20%;
 }
 
 .pastexperience {
-  height: 350px;
+  height: 500px;
   text-align: center;
   background-color: #282e34;
 }
 
 .pastexperience h1 {
-  font-size: 40px;
   padding-top: 30px;
   color: white;
 }
 
 .pastexperience p {
-  font-size: 22px;
+  font-size: 18px;
   margin-left: 10%;
   text-align: center;
   width: 80%;
@@ -60,7 +61,7 @@
 }
 
 .qualifications {
-  height: 200px;
+  height: 180px;
   text-align: center;
   background-color: white;
 }
@@ -85,12 +86,13 @@
 }
 
 .qualifications .qualificationslist li {
+  font-size: 18px;
   margin-left: 10%;
   color: black;
 }
 
 .memberships {
-  height: 280px;
+  height: 300px;
   text-align: center;
   background-color: #282e34;
 }
@@ -109,14 +111,119 @@
 
 .memberships .membershipslist {
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   list-style-type: circle;
 }
 
 .memberships .membershipslist li {
-  font-size: 22px;
+  font-size: 18px;
   margin-left: 10%;
   color: white;
+}
+
+@media only screen and (min-width: 1064px) {
+  .column {
+    text-align: center;
+    float: left;
+    width: 50%;
+  }
+  .column h1 {
+    font-size: 40px;
+  }
+  .column p {
+    text-align: justify;
+    font-size: 22px;
+    margin-right: 50px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .expertsimage {
+    border-radius: 45px;
+    padding-top: 15px;
+    height: 500px;
+  }
+  .pastexperience {
+    height: 350px;
+    text-align: center;
+    background-color: #282e34;
+  }
+  .pastexperience h1 {
+    font-size: 40px;
+    padding-top: 30px;
+    color: white;
+  }
+  .pastexperience p {
+    font-size: 22px;
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    color: white;
+  }
+  .pastexperience .areaslist {
+    text-align: left;
+    color: white;
+    list-style-type: circle;
+  }
+  .pastexperience .areaslist li {
+    font-size: 18px;
+    margin-left: 10%;
+    color: white;
+  }
+  .qualifications {
+    height: 200px;
+    text-align: center;
+    background-color: white;
+  }
+  .qualifications h1 {
+    padding-top: 30px;
+    color: black;
+  }
+  .qualifications p {
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    color: black;
+  }
+  .qualifications .qualificationslist {
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    list-style-type: circle;
+  }
+  .qualifications .qualificationslist li {
+    margin-left: 10%;
+    color: black;
+  }
+  .memberships {
+    height: 280px;
+    text-align: center;
+    background-color: #282e34;
+  }
+  .memberships h1 {
+    padding-top: 30px;
+    color: white;
+  }
+  .memberships p {
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    color: white;
+  }
+  .memberships .membershipslist {
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    list-style-type: circle;
+  }
+  .memberships .membershipslist li {
+    font-size: 22px;
+    margin-left: 10%;
+    color: white;
+  }
 }
 /*# sourceMappingURL=adamPhilips.css.map */
