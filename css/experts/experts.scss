@@ -1,4 +1,18 @@
+.intro{
+  width: 80%;
+  padding-left: 10%;
+  height: 50px; 
+  text-align: center;
+  h1{
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: Helvetica;
+  }
+
+}
+
 .row{
+  margin-top: 70px;
     text-align: center;
 }
 .row::after {
@@ -126,8 +140,18 @@
     body{
       font-family: Helvetica;
     }
+    .intro{
+      text-align: center;
+      h1{
+        margin-top: 80px;
+        font-size: 30px;
+        font-family: Helvetica;
+      }
+    
+    }
 
     .row {
+      margin-top: -60px;
         display: flex;
       }
       

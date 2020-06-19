@@ -1,3 +1,8 @@
+.columnimage{
+    text-align: center;
+float: left;
+width: 100%;
+}
 .column {
     
     width: 100%;
@@ -21,17 +26,19 @@
     clear: both;
   }
 
+
+  //defines image dimensions
   .expertsimage{
       text-align: center;
     border-radius: 45px;
     padding-top: 15px;
     width: 60%;
-    margin-left: 20%;
 }
 
+//past experiences div
 .pastexperience
   {
-      height: 500px;
+      height: 390px;
       text-align: center;
     background-color: #282e34;
     h1{
@@ -45,95 +52,69 @@
         width: 80%;
         color: white;
     }
-    .areaslist{
-        text-align: left;
-        color: white;
-        list-style-type: circle;
-        li{
-            font-size: 18px;
-            margin-left: 10%;
-            color: white;
-        }}
   }
 
-  .qualifications
-  {
-      height: 180px;
-      text-align: center;
-    background-color: white;
-    h1{
-        padding-top: 30px;
-        color: black;
-    }
-    p{
-        margin-left: 10%;
-        text-align: center;
-        width: 80%;
-        color: black;
-    }
-    .qualificationslist{
-        text-align: left;
-        font-size: 20px;
-        color: black;
-        list-style-type: circle;
-        li{
-            font-size: 18px;
-            margin-left: 10%;
+  //div with all bulletpoints
+  .bulletdiv{
+    height: 480px;
+    text-align: center;
+  background-color: white;
+    .bulletcolumn {
+        float: left;
+        width: 100%;
+        h1{
+            font-size: 40px;
+            text-align: center;
+            font-family: Helvetica;
+        }
+        .listindiv{
+            text-align: left;
+            font-size: 20px;
             color: black;
+            list-style-type: circle;
+            li{
+                font-family: Helvetica;
+                font-size: 20px;
+                margin-left: 10%;
+                color: black;
+            }
         }
-    }
+      }
+      
+      /* Clear floats after the columns */
+      .bulletrow:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
   }
-
-
-  .memberships
-  {
-      height: 300px;
-      text-align: center;
-    background-color: #282e34;
-    h1{
-        padding-top: 30px;
-        color: white;
-    }
-    p{
-        margin-left: 10%;
-        text-align: center;
-        width: 80%;
-        color: white;
-    }
-    .membershipslist{
-        text-align: left;
-        font-size: 18px;
-        color: white;
-        list-style-type: circle;
-        li{
-            font-size: 18px;
-            margin-left: 10%;
-            color: white;
-        }
-    }
-  }
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 1064px){
 
-.column {
+  //defines image column smaller
+    .columnimage{
+        text-align: center;
+    float: left;
+    width: 30%;
+    }
+
+//Defines column sizes for text regarding andy
+    .column {
     text-align: center;
     float: left;
-    width: 50%;
+    width: 70%;
     h1{
+        font-family: Helvetica;
+
+        text-align: left;
+        margin-left: 5%;
         font-size: 40px;
     }
     p{
         text-align: justify;
-        font-size: 22px;
-
         margin-right: 50px;
+        font-family: Helvetica;
+
     }
   }
   
@@ -144,95 +125,73 @@
     clear: both;
   }
 
+  //image sizes for desktop
   .expertsimage{
       border-radius: 45px;
-      padding-top: 15px;
-      height: 500px;
+      margin-top: 4%;
+      height: 400px;
+      width: auto;
   }
 
+  //Defines past experiences div
   .pastexperience
   {
-      height: 350px;
+      height: 220px;
       text-align: center;
     background-color: #282e34;
     h1{
+        font-family: Helvetica;
+
+        padding-top: 40px;
+        color: white;
         font-size: 40px;
-        padding-top: 30px;
-        color: white;
     }
     p{
-        font-size: 22px;
         
+        font-family: Helvetica;
         margin-left: 10%;
         text-align: center;
         width: 80%;
         color: white;
-        
-    }
-    .areaslist{
-        text-align: left;
-        color: white;
-        list-style-type: circle;
-        li{
-            font-size: 18px;
-            margin-left: 10%;
-            color: white;
-        }
     }
   }
 
-  .qualifications
-  {
-      height: 200px;
-      text-align: center;
-    background-color: white;
-    h1{
-        padding-top: 30px;
-        color: black;
-    }
-    p{
-        margin-left: 10%;
-        text-align: center;
-        width: 80%;
-        color: black;
-    }
-    .qualificationslist{
-        text-align: left;
-        font-size: 20px;
-        color: black;
-        list-style-type: circle;
-        li{
-            margin-left: 10%;
+  //defines bullet div
+  .bulletdiv{
+    height: 180px;
+    text-align: center;
+  background-color: white;
+    .bulletcolumn {
+        float: left;
+        width: 50%;
+        h1{
+            font-size: 40px;
+            text-align: center;
+            font-family: Helvetica;
+        }
+        .listindiv{
+            padding-left: 27%;
+            text-align: left;
+            font-size: 20px;
             color: black;
+            list-style-type: circle;
+            li{
+                font-family: Helvetica;
+                font-size: 20px;
+                margin-left: 10%;
+                color: black;
+            }
         }
-    }
+      }
+      
+      /* Clear floats after the columns */
+      .bulletrow:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
   }
 
-  .memberships
-  {
-      height: 280px;
-      text-align: center;
-    background-color: #282e34;
-    h1{
-        padding-top: 30px;
-        color: white;
-    }
-    p{
-        margin-left: 10%;
-        text-align: center;
-        width: 80%;
-        color: white;
-    }
-    .membershipslist{
-        text-align: left;
-        font-size: 20px;
-        color: white;
-        list-style-type: circle;
-        li{
-            font-size: 22px;
-            margin-left: 10%;
-            color: white;
-        }
-    }
-  }
+  
 }
