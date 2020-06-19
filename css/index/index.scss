@@ -227,6 +227,20 @@ body, html {
             font-size: 23px;
         }
     }
+    .contentdiv{
+        text-align:left;
+        width: 80%;
+        margin-left: 10%;
+        text-align: justify;
+        h1{
+            font-family: Helvetica;
+            font-size: 40px;
+        }
+        p{
+            font-family: Helvetica;
+            font-size: 23px;
+        }
+    }
 //Topics Description
     .topicscontent{
         background-color: #282e34;
@@ -235,6 +249,7 @@ body, html {
         height: 480px;
         
         h1{
+            text-align: left;
             font-family: Helvetica;
             font-size: 40px;
             color: white;

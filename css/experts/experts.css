@@ -160,5 +160,9 @@ body {
     margin-top: 100px;
     text-align: center;
   }
+  .column-1 h2, .column-2 h2 {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
 /*# sourceMappingURL=experts.css.map */
