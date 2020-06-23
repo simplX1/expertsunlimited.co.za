@@ -1,14 +1,23 @@
 .intro {
-  width: 80%;
-  padding-left: 10%;
+  width: 90%;
+  padding-left: 5%;
   height: 50px;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 .intro h1 {
   margin-top: 50px;
   font-size: 25px;
   font-family: Helvetica;
+}
+
+.column-1 h1, .column-2 h1 {
+  padding-top: 25px;
+}
+
+.column-1 h2, .column-2 h2 {
+  font-size: 18px;
 }
 
 .row {
@@ -180,10 +189,12 @@ body {
     -webkit-box-flex: 50%;
         -ms-flex: 50%;
             flex: 50%;
-    margin-top: 100px;
+    margin-top: 45px;
     text-align: center;
   }
   .column-1 h2, .column-2 h2 {
+    font-weight: 450;
+    font-size: 18px;
     padding-left: 20%;
     padding-right: 20%;
   }

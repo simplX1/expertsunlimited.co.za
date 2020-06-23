@@ -1,6 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Prompt&display=swap");
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 body, html {
-  font-family: 'Prompt', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -52,11 +68,30 @@ body, html {
   font-size: 15px;
 }
 
+.expertprinciples {
+  text-align: center;
+  height: auto;
+  padding-bottom: 2px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.expertprinciples h1 {
+  font-family: Helvetica;
+  font-size: 30px;
+}
+
+.expertprinciples p {
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
 .topicscontent {
   background-color: #282e34;
   text-align: center;
   width: 100%;
-  height: 480px;
+  height: auto;
+  padding-bottom: 15px;
 }
 
 .topicscontent h1 {
@@ -89,6 +124,7 @@ body, html {
 
 /*text scroll*/
 .demo a {
+  bottom: 30%;
   z-index: 2;
   display: inline-block;
   color: #fff;
@@ -195,28 +231,40 @@ body, html {
 }
 
 @media only screen and (min-width: 1064px) {
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
   .banner {
     background-attachment: fixed;
     text-align: center;
     height: 1000px;
   }
   .banner h1 {
-    font-family: Helvetica;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 80px;
   }
   .indexcontent {
     text-align: center;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
   }
   .indexcontent h1 {
-    font-family: Helvetica;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
   }
   .indexcontent p {
-    font-family: Helvetica;
-    font-size: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
   }
   .contentdiv {
     text-align: left;
@@ -225,27 +273,27 @@ body, html {
     text-align: justify;
   }
   .contentdiv h1 {
-    font-family: Helvetica;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
   }
   .contentdiv p {
-    font-family: Helvetica;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 23px;
   }
   .topicscontent {
     background-color: #282e34;
     text-align: center;
     width: 100%;
-    height: 480px;
+    height: auto;
   }
   .topicscontent h1 {
     text-align: left;
-    font-family: Helvetica;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
     color: white;
   }
   .topicscontent p {
-    font-family: Helvetica;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 23px;
   }
   .topicscontent .topics {
@@ -258,11 +306,27 @@ body, html {
     font-size: 20px;
   }
   .topicscontent .topics li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+  }
+  .expertprinciples {
+    text-align: center;
+    height: auto;
+    padding-bottom: 2px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .expertprinciples h1 {
+    font-family: Helvetica;
+    font-size: 30px;
+  }
+  .expertprinciples p {
+    font-family: Helvetica;
     font-size: 23px;
   }
   /*text scroll*/
   .demo a {
-    bottom: 20px;
+    bottom: 30%;
     z-index: 2;
     display: inline-block;
     color: #fff;
