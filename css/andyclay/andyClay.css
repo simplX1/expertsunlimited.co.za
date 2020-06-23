@@ -1,3 +1,19 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .columnimage {
   text-align: center;
   float: left;
@@ -35,7 +51,7 @@
 }
 
 .pastexperience {
-  height: 650px;
+  height: 750px;
   text-align: center;
   background-color: #282e34;
 }
@@ -54,7 +70,7 @@
 }
 
 .bulletdiv {
-  height: 480px;
+  height: 500px;
   text-align: center;
   background-color: white;
   /* Clear floats after the columns */
@@ -154,11 +170,13 @@
     width: 50%;
   }
   .bulletdiv .bulletcolumn h1 {
+    margin-left: -30px;
     font-size: 40px;
     text-align: center;
     font-family: Helvetica;
   }
   .bulletdiv .bulletcolumn .listindiv {
+    margin-top: -25px;
     padding-left: 27%;
     text-align: left;
     font-size: 20px;
