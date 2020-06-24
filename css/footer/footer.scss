@@ -31,6 +31,7 @@ footer{
 }
 //-----------------
 .menu{
+  padding-left: 0px;
   list-style: none;
 }
 //navigation items
@@ -179,11 +180,14 @@ footer{
 @media only screen and (max-width: 1810px){
   
   
+  .left-column-outer, .right-column-outer{
+    top: 0;
+  }
 
   //-----------
   .left-column-outer{
     h1{
-      margin-top: -50px;
+      margin-top: -40px;
     }
   }
   .right-column-outer{
