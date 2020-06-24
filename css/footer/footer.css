@@ -8,7 +8,8 @@ footer {
 }
 
 .left-column-outer, .middle-column-outer, .right-column-outer {
-  width: 33.3333333333%;
+  top: 0;
+  width: 50%;
   float: left;
   text-align: center;
   color: white;
@@ -28,7 +29,7 @@ footer {
 }
 
 .contact-details-separator {
-  width: 500px;
+  width: 650px;
   background-color: #0080B8;
   border-color: #0080B8;
   height: 2px;
