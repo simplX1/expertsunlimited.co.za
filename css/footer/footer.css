@@ -7,19 +7,11 @@ footer {
   padding-bottom: 30px;
 }
 
-.left-column-outer, .middle-column-outer, .right-column-outer {
-  width: 33.3333333333%;
+.left-column-outer, .right-column-outer {
+  top: 0;
+  width: 50%;
   float: left;
   text-align: center;
-  color: white;
-}
-
-.left-middle-column, .right-middle-column {
-  display: inline-block;
-}
-
-.left-middle-column a, .right-middle-column a {
-  text-decoration: none;
   color: white;
 }
 
@@ -28,7 +20,7 @@ footer {
 }
 
 .contact-details-separator {
-  width: 500px;
+  width: 650px;
   background-color: #0080B8;
   border-color: #0080B8;
   height: 2px;
@@ -38,7 +30,7 @@ footer {
   list-style: none;
 }
 
-.menu-item1, .menu-item2, .menu-item3 {
+.menu-item1, .menu-item2, .menu-item3, .menu-item4 {
   display: inline;
   padding: 15px;
 }
@@ -46,19 +38,6 @@ footer {
 .right-left-column, .right-right-column {
   display: inline-block;
   padding-top: 20px;
-}
-
-.right-middle-column {
-  padding-left: 20px;
-}
-
-.left-middle-column {
-  padding-right: 20px;
-}
-
-.mail1, .mail2, .phone1, .phone2 {
-  padding-right: 10px;
-  margin-bottom: -8px;
 }
 
 .btn {
@@ -79,11 +58,11 @@ footer {
 }
 
 #subscribeButton {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 #contactButton {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 /*btn_background*/
@@ -164,7 +143,7 @@ footer {
 }
 
 @media only screen and (max-width: 1651px) {
-  .left-column-outer, .middle-column-outer, .right-column-outer {
+  .left-column-outer, .right-column-outer {
     width: 100%;
   }
   footer {
@@ -180,7 +159,7 @@ footer {
 
 @media only screen and (max-width: 614px) {
   .contact-details-separator {
-    width: 150px;
+    width: 250px;
   }
   .left-column-outer {
     width: 100%;
@@ -196,33 +175,13 @@ footer {
 }
 
 @media only screen and (max-width: 1810px) {
-  .left-middle-column, .right-middle-column {
-    width: 100%;
-  }
-  .left-middle-column a, .right-middle-column a {
-    text-decoration: none;
-    color: white;
-  }
-  .middle-column-outer {
-    text-align: center;
-  }
-  .left-middle-column {
-    padding-right: 0px;
-  }
-  .right-middle-column {
-    padding-left: 0px;
-  }
-  .mail1, .mail2, .phone1, .phone2 {
-    padding-right: 10px;
-    margin-bottom: -8px;
-  }
   .left-column-outer h1 {
     margin-top: -50px;
   }
   .right-column-outer h1 {
     margin-top: -40px;
   }
-  .menu-item1, .menu-item2, .menu-item3 {
+  .menu-item1, .menu-item2, .menu-item3, .menu-item4 {
     margin-top: -20px;
   }
 }
