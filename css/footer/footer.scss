@@ -9,7 +9,7 @@ footer{
 }
 //-------------
 //outlining the three colunms 
-.left-column-outer, .middle-column-outer, .right-column-outer{
+.left-column-outer, .right-column-outer{
   top: 0;
   width: 50%;
   float: left;
@@ -19,13 +19,7 @@ footer{
 }
 //------------
 //two colunms in the right colunm
-.left-middle-column, .right-middle-column{
-  a{
-    text-decoration: none;
-    color: white;
-  }
-  display: inline-block;
-}
+
 //------------
 .left-column-outer, .right-column-outer{
   margin-top: 60px;
@@ -42,7 +36,7 @@ footer{
   list-style: none;
 }
 //navigation items
-.menu-item1, .menu-item2, .menu-item3{
+.menu-item1, .menu-item2, .menu-item3, .menu-item4{
   display: inline;
   padding: 15px;
 }
@@ -50,17 +44,9 @@ footer{
   display: inline-block;
   padding-top: 20px;
 }
-.right-middle-column{
-  padding-left: 20px;
-}
-.left-middle-column{
-  padding-right: 20px;
-}
+
 //icons for contact details area
-.mail1, .mail2, .phone1, .phone2{
-  padding-right: 10px;
-  margin-bottom: -8px;
-}
+
 //buttons for contact us and subscribe
 .btn {
   letter-spacing: 0.1em;
@@ -78,10 +64,10 @@ footer{
   text-decoration: none;
 }
 #subscribeButton{
-  margin-left: 10px;
+  margin-left: 0px;
 }
 #contactButton{
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 /*btn_background*/
@@ -155,7 +141,7 @@ footer{
   }
 }
 @media only screen and (max-width: 1651px){
-  .left-column-outer, .middle-column-outer, .right-column-outer{
+  .left-column-outer, .right-column-outer{
   width: 100%;
   
 }
@@ -177,7 +163,7 @@ footer{
 @media only screen and (max-width: 614px){
   //blue line
 .contact-details-separator{
-  width:150px;
+  width:250px;
 }
 
 //-----------
@@ -202,16 +188,8 @@ footer{
       color: white;
     }
   }
-  .middle-column-outer{
-    text-align: center;
-    
-  }
-  .left-middle-column{
-    padding-right: 0px;
-  }
-  .right-middle-column{
-    padding-left: 0px;
-  }
+  
+  
   //icons for the contact information
   .mail1, .mail2, .phone1, .phone2{
     padding-right: 10px;
@@ -229,7 +207,7 @@ footer{
     }
   }
   //menu area
-  .menu-item1, .menu-item2, .menu-item3{
+  .menu-item1, .menu-item2, .menu-item3, .menu-item4{
     margin-top: -20px;
   }
   //------------
