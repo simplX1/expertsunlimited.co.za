@@ -99,11 +99,11 @@ body {
 
 /*btn_background*/
 .effect01 {
-  color: #FFF;
+  color: black;
   border: 4px solid #282e34;
   -webkit-box-shadow: 0px 0px 0px 1px #282e34 inset;
           box-shadow: 0px 0px 0px 1px #282e34 inset;
-  background-color: #282e34;
+  background-color: #FFF;
   overflow: hidden;
   position: relative;
   -webkit-transition: all 0.3s ease-in-out;
@@ -111,10 +111,10 @@ body {
 }
 
 .effect01:hover {
-  border: 4px solid #666;
-  background-color: #FFF;
-  -webkit-box-shadow: 0px 0px 0px 4px #EEE inset;
-          box-shadow: 0px 0px 0px 4px #EEE inset;
+  border: 4px solid #282e34;
+  background-color: #282e34;
+  -webkit-box-shadow: 0px 0px 0px 4px #282e34 inset;
+          box-shadow: 0px 0px 0px 4px #282e34 inset;
 }
 
 /*btn_text*/
@@ -126,7 +126,7 @@ body {
 
 .effect01:hover span {
   letter-spacing: 0.13em;
-  color: #333;
+  color: #FFF;
 }
 
 /*highlight*/
