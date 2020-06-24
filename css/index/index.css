@@ -1,42 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Prompt&display=swap");
-html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-h1 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-p {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-a {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 body, html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 100%;
 }
 
 .banner {
-  background: url("../../images/index/home.png.jpg") no-repeat center center fixed;
-  background-position: center center;
+  background: url("../../images/index/home.png.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
   background-size: cover;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 680px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: 100%;
-  text-align: center;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 .banner h1 {
@@ -123,8 +99,26 @@ body, html {
 }
 
 /*text scroll*/
+#section03 {
+  /*position: relative;
+    width: 100%;
+    height: 100%;*/
+}
+
+#section03::after {
+  /*position: absolute;
+        bottom: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 80%;*/
+  /*/*background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+        background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);*/
+}
+
+/*text scroll*/
 .demo a {
-  bottom: 30%;
+  bottom: 20px;
   z-index: 2;
   display: inline-block;
   color: #fff;
@@ -188,6 +182,7 @@ body, html {
   content: '';
   width: 44px;
   height: 44px;
+  /*box-shadow: 0 0 0 0 rgba(255,255,255,.1);*/
   border-radius: 100%;
   opacity: 0;
   -webkit-animation: sdb03 3s infinite;
@@ -231,25 +226,11 @@ body, html {
 }
 
 @media only screen and (min-width: 1064px) {
-  html {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  a {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
   .banner {
-    background-attachment: fixed;
-    text-align: center;
-    height: 1000px;
+    max-width: 100%;
+    max-height: 100%;
   }
   .banner h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 80px;
   }
@@ -259,11 +240,9 @@ body, html {
     margin-left: 5%;
   }
   .indexcontent h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
   }
   .indexcontent p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
   }
   .contentdiv {
@@ -273,11 +252,9 @@ body, html {
     text-align: justify;
   }
   .contentdiv h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
   }
   .contentdiv p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 23px;
   }
   .topicscontent {
@@ -288,12 +265,10 @@ body, html {
   }
   .topicscontent h1 {
     text-align: left;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
     color: white;
   }
   .topicscontent p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 23px;
   }
   .topicscontent .topics {
@@ -306,7 +281,6 @@ body, html {
     font-size: 20px;
   }
   .topicscontent .topics li {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 23px;
   }
   .expertprinciples {
@@ -326,7 +300,6 @@ body, html {
   }
   /*text scroll*/
   .demo a {
-    bottom: 30%;
     z-index: 2;
     display: inline-block;
     color: #fff;
@@ -337,16 +310,12 @@ body, html {
     transition: opacity .3s;
     margin: 0;
     position: absolute;
-    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, 70%);
             transform: translate(-50%, 70%);
   }
   .demo a:hover {
     opacity: .5;
-  }
-  #section03 a {
-    padding-top: 60px;
   }
   #section03 a span {
     position: absolute;
