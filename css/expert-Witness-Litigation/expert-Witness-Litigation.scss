@@ -1,0 +1,69 @@
+.banner {
+    background: url("../../images/experts-witness-litigation/justice-2755765.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    display: inline-flex;
+    p{
+        text-align: center;
+        color: black;
+        vertical-align: middle;
+        margin: auto;
+        font-size: 50px;
+        font-weight: bold;
+        animation: banner-h1 3s 1;
+    }
+}
+//Topics Description
+.topicscontent{
+    background-color: #282e34;
+    text-align: center;
+    width: 100%;
+    height: auto ;
+    padding-bottom: 15px;
+    
+    h1{
+        padding-top: 25px;
+        font-family: Helvetica;
+        font-size: 30px;
+        color: white;
+    }
+    p{
+        font-family: Helvetica;
+        font-size: 15px;
+    }
+    .topics{
+        text-align: left;
+        font-size: 20px;
+        color: white;
+        list-style-type: circle;
+        margin-left: 5%;
+        padding: 0;
+        font-size: 15px;
+        li{
+            font-family: Helvetica;
+            font-size: 16px;
+            width: 90%;
+        }
+    }
+}
+.expertprinciples{
+
+    text-align: center;
+    height: auto;
+    padding-bottom: 2px;
+
+    width: 80%;
+    margin-left: 10%;
+    h1{
+        font-family: Helvetica;
+        font-size: 30px;
+    }
+    p{
+        font-family: Helvetica;
+        font-size: 15px;
+    }
+}

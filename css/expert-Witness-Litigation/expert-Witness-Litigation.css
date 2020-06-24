@@ -1,0 +1,78 @@
+.banner {
+  background: url("../../images/experts-witness-litigation/justice-2755765.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 500px;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.banner p {
+  text-align: center;
+  color: black;
+  vertical-align: middle;
+  margin: auto;
+  font-size: 50px;
+  font-weight: bold;
+  -webkit-animation: banner-h1 3s 1;
+          animation: banner-h1 3s 1;
+}
+
+.topicscontent {
+  background-color: #282e34;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+.topicscontent h1 {
+  padding-top: 25px;
+  font-family: Helvetica;
+  font-size: 30px;
+  color: white;
+}
+
+.topicscontent p {
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+.topicscontent .topics {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  list-style-type: circle;
+  margin-left: 5%;
+  padding: 0;
+  font-size: 15px;
+}
+
+.topicscontent .topics li {
+  font-family: Helvetica;
+  font-size: 16px;
+  width: 90%;
+}
+
+.expertprinciples {
+  text-align: center;
+  height: auto;
+  padding-bottom: 2px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.expertprinciples h1 {
+  font-family: Helvetica;
+  font-size: 30px;
+}
+
+.expertprinciples p {
+  font-family: Helvetica;
+  font-size: 15px;
+}
+/*# sourceMappingURL=expert-Witness-Litigation.css.map */
