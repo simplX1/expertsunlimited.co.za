@@ -17,8 +17,6 @@ footer{
   color: white;
   
 }
-//------------
-//two colunms in the right colunm
 
 //------------
 .left-column-outer, .right-column-outer{
@@ -45,7 +43,6 @@ footer{
   padding-top: 20px;
 }
 
-//icons for contact details area
 
 //buttons for contact us and subscribe
 .btn {
@@ -180,21 +177,9 @@ footer{
 
 }
 @media only screen and (max-width: 1810px){
-  .left-middle-column, .right-middle-column{
-    
-    width: 100%;
-    a{
-      text-decoration: none;
-      color: white;
-    }
-  }
   
   
-  //icons for the contact information
-  .mail1, .mail2, .phone1, .phone2{
-    padding-right: 10px;
-    margin-bottom: -8px;
-  }
+
   //-----------
   .left-column-outer{
     h1{
