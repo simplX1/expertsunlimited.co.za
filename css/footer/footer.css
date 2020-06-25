@@ -72,6 +72,7 @@ footer {
   text-decoration: none;
   text-transform: uppercase;
   width: 150px;
+  border-radius: 20px;
 }
 
 .btn:hover {
@@ -91,7 +92,6 @@ footer {
   --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
   display: var(--uismLinkDisplay);
   color: #000;
-  outline: solid  2px #000;
   position: relative;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
