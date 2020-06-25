@@ -107,7 +107,7 @@ nav span {
   display: block;
 }
 
-@media only screen and (min-width: 1064px) {
+@media only screen and (min-width: 1228px) {
   .menu-btn {
     display: none;
   }
