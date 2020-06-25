@@ -158,11 +158,13 @@ body {
 }
 
 .andy-clay-image {
+  border-radius: 15%;
   width: 300px;
   height: 430px;
 }
 
 .adam-philips-image {
+  border-radius: 15%;
   width: 300px;
   height: 430px;
 }
