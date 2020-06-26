@@ -144,6 +144,10 @@
     width: 300px;
     height: 430px;
   } 
+  .footerspacer
+    {
+      height: 2px;
+    }
  
   @media only screen and (min-width: 1000px){
 
@@ -157,6 +161,10 @@
         font-size: 30px;
         font-family: Helvetica;
       }
+    }
+    .footerspacer
+    {
+      height: 150px;
     }
     .row {
       margin-top: -60px;
