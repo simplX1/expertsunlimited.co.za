@@ -29,7 +29,7 @@ body, html {
   margin-top: -80px;
   font-family: Helvetica;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .banner p {
@@ -85,7 +85,7 @@ body, html {
 
 /*text scroll*/
 .demo a {
-  bottom: 200px;
+  bottom: 90px;
   z-index: 2;
   display: inline-block;
   color: #fff;
