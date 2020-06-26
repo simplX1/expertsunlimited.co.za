@@ -85,7 +85,7 @@ body, html {
 
 /*text scroll*/
 .demo a {
-  bottom: 300px;
+  bottom: 200px;
   z-index: 2;
   display: inline-block;
   color: #fff;
