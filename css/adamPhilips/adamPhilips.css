@@ -35,7 +35,7 @@
 }
 
 .pastexperience {
-  height: 390px;
+  height: auto;
   text-align: center;
   background-color: #282e34;
 }
@@ -91,7 +91,63 @@
   clear: both;
 }
 
+.contact {
+  padding-bottom: 10px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact .contact-text {
+  text-align: center;
+  display: inline-block;
+}
+
+.contact .contact-text p {
+  font-size: 16px;
+  display: inline-block;
+}
+
+.contact .contact-text .adam-phillips-contact-mail {
+  margin-right: 10px;
+}
+
+.contact .contact-text .adam-phillips-contact-mail img {
+  margin-bottom: -6px;
+  padding-right: 10px;
+}
+
+.contact .contact-text .adam-phillips-contact-phone {
+  margin-left: 10px;
+}
+
+.contact .contact-text .adam-phillips-contact-phone img {
+  margin-bottom: -6px;
+  padding-right: 10px;
+}
+
+.contact-separator {
+  width: 200px;
+  background-color: black;
+  border-color: black;
+  height: 2px;
+}
+
 @media only screen and (min-width: 1064px) {
+  .contact .contact-text p {
+    font-size: 20px;
+  }
+  .contact .contact-separator {
+    width: 500px;
+    background-color: black;
+    border-color: black;
+    height: 2px;
+  }
   .columnimage {
     text-align: center;
     float: left;
@@ -145,7 +201,7 @@
     color: white;
   }
   .bulletdiv {
-    height: 180px;
+    height: auto;
     text-align: center;
     background-color: white;
     /* Clear floats after the columns */
