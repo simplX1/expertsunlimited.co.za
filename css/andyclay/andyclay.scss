@@ -51,13 +51,14 @@ width: 100%;
       text-align: center;
     border-radius: 45px;
     padding-top: 15px;
-    width: 60%;
+    height: 300px;
 }
 
 //past experiences div
 .pastexperience
   {
-      height: 750px;
+      height: auto;
+      padding-bottom: 20px;
       text-align: center;
     background-color: #282e34;
     h1{
