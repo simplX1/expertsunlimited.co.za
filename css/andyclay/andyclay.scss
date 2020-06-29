@@ -108,7 +108,74 @@ width: 100%;
       }
 
   }
+
+
+  
+  .contact{
+    padding-bottom: 10px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    
+    a{
+      text-decoration: none;
+color: black;
+    }
+    .contact-text{
+      text-align: center;
+      display: inline-block;
+      p{
+        font-size: 16px;
+        display: inline-block;
+        
+      }
+      .andy-clay-contact-mail
+      {
+        
+
+        img{
+          margin-bottom: -6px;
+
+          padding-right: 10px;
+        }
+        margin-right: 10px;
+      }
+      .andy-clay-contact-phone
+      {
+        img{
+          margin-bottom: -6px;
+
+          padding-right: 10px;
+        }
+        margin-left: 10px;
+      }
+    }
+  
+  }
+  .contact-separator{
+    width: 200px;
+    background-color: black;
+    border-color: black;
+    height: 2px;
+  }
+
 @media only screen and (min-width: 1064px){
+
+  .contact{
+
+    .contact-text{
+      p{
+        font-size: 20px;
+      }
+    }
+     .contact-separator{
+      width: 500px;
+      background-color: black;
+      border-color: black;
+      height: 2px;
+    }
+  }
+  
 
   //defines image column smaller
     .columnimage{
@@ -152,6 +219,8 @@ width: 100%;
       width: auto;
   }
 
+ 
+
   //Defines past experiences div
   .pastexperience
   {
@@ -177,7 +246,7 @@ width: 100%;
 
   //defines bullet div
   .bulletdiv{
-    height: 250px;
+    height: auto;
     text-align: center;
   background-color: white;
     .bulletcolumn {
@@ -213,6 +282,7 @@ width: 100%;
       }
 
   }
+  
 
   
 }
