@@ -1,7 +1,7 @@
 .banner {
   background: url("../../images/experts-witness-litigation/business-suit-690048.jpg");
   /* Set a specific height */
-  height: 400px;
+  height: auto;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -14,15 +14,16 @@
   height: 100%;
 }
 
-.banner .bannerText p {
+.banner .bannerText h1 {
   max-width: 1300px;
   padding-left: 10px;
   padding-right: 10px;
   color: white;
-  padding-top: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin: auto;
   text-align: center;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .topicscontent {
@@ -71,15 +72,17 @@
 }
 
 .expertprinciples p {
-  padding-left: 70px;
-  padding-right: 70px;
+  margin: auto;
+  text-align: center;
+  max-width: 1650px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 .engagmentprocces {
   background-color: #282e34;
   color: white;
   text-align: center;
-  width: 100%;
   height: auto;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -90,7 +93,16 @@
 }
 
 .engagmentprocces p {
-  padding-left: 70px;
-  padding-right: 70px;
+  margin: auto;
+  text-align: center;
+  max-width: 1200px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .banner .bannerText h1 {
+    font-size: 45px;
+  }
 }
 /*# sourceMappingURL=expert-Witness-Litigation.css.map */
