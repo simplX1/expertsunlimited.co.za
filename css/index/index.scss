@@ -20,25 +20,31 @@ body, html {
         height: 100%;
     }
     .bannersText{
+        //padding-top: 205px;
         padding-top: 100px;
     }
   //H1 and H2 in banner edit
   h1{
-      margin-top: -80px;
+     // margin-top: -80px;
       font-family: Helvetica;
       text-align: center;
-      font-size: 40px;
+      font-size: 50px;
+      margin-bottom: 0px;
+      
   }
   p{
       text-align: center;
-      margin-top: -30px;
       
+      margin: auto;
+      max-width: 1200px;
       font-size: 15px;
       padding-left: 20px;
       padding-right: 20px;
+      padding-bottom: 20px;
   }
   .buttons{
       text-align: center;
+      
   }
 
 }
@@ -96,7 +102,7 @@ body, html {
     transition: opacity .3s;
     margin: 0;
     position: absolute;
-    top: 50%;
+   // top: 50%;
     left:50%;
     transform: translate(-50%, 70%);
 }
@@ -202,9 +208,10 @@ body, html {
         h1{
             text-align: center;
             font-size: 80px;
+            margin-bottom: 0px;
         }
         P{          
-            font-size: 35px;
+            font-size: 23px;
         }
         
       }
@@ -289,10 +296,6 @@ body, html {
         margin-left: 10px;
     }
 //Read More Button
-   
-    
-
-    
     /*text scroll*/
     .demo a {
      //   bottom: 30%;
@@ -399,3 +402,11 @@ body, html {
         }
     }
 }
+
+
+@media screen and (max-width: 0px) , screen and (max-height: 640px) {
+    .banner .bannersText{
+        //padding-top: 205px;
+        margin-top: -100px;
+    }
+  }
