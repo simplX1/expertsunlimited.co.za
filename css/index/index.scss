@@ -21,7 +21,7 @@ body, html {
     }
     .bannersText{
         //padding-top: 205px;
-        padding-top: 100px;
+        padding-top: 0px;
     }
   //H1 and H2 in banner edit
   h1{
@@ -202,9 +202,13 @@ body, html {
 
 @media only screen and (min-width: 1064px){
     //Desktop Banner design
+    
     .banner{      
         max-width: 100%;
-        max-height: 100%;  
+        max-height: 100%;
+        .bannersText{
+            margin-top: 100px;
+        }
         h1{
             text-align: center;
             font-size: 80px;
@@ -404,9 +408,8 @@ body, html {
 }
 
 
-@media screen and (max-width: 0px) , screen and (max-height: 640px) {
-    .banner .bannersText{
-        //padding-top: 205px;
-        margin-top: -100px;
+@media screen and (max-width: px) , screen and (max-height: 580px) {
+    .banner{
+     
     }
   }
