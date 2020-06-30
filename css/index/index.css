@@ -375,10 +375,4 @@ body, html {
     }
   }
 }
-
-@media screen and (max-width: 0px), screen and (max-height: 570px) {
-  #section03 {
-    display: none;
-  }
-}
 /*# sourceMappingURL=index.css.map */
