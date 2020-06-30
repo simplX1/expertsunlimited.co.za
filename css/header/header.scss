@@ -32,7 +32,7 @@ header{
     cursor: pointer;
    // height: 55px;
     position: absolute;
-    left: 60px;
+    left: 40px;
     width: 140px;
     height: 50px;
     margin-top: -13px;
@@ -82,7 +82,7 @@ nav{
         grid-template-columns: repeat(4,25%);
         width: 85%;
         li{
-            margin: 15px;
+            margin-top: 15px;
         }
     }
     span{
