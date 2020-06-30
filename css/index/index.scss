@@ -14,6 +14,7 @@ body, html {
   background-position: center center;
   background-attachment: fixed;
   height: 100%;
+  min-height: 580px;
   color: white;
     .opacity{
         background: rgba(0, 0, 0, 0.6);
@@ -203,9 +204,8 @@ body, html {
 @media only screen and (min-width: 1064px){
     //Desktop Banner design
     
-    .banner{      
-        max-width: 100%;
-        max-height: 100%;
+    .banner{
+        
         .bannersText{
             margin-top: 100px;
         }
